@@ -1,4 +1,4 @@
 export type IsSquare = 'X' | 'O' | null
-export type History = {
+export interface History {
   squares: IsSquare[]
 }
