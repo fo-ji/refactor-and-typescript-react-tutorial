@@ -9,12 +9,7 @@ interface BoadProps {
 
 const Board: React.FC<BoadProps> = ({ squares, onClick }) => {
   const renderSquare = (i: number) => {
-    return (
-      <Square
-        value={squares[i]}
-        onClick={() => onClick(i)}
-      />
-    )
+    return <Square value={squares[i]} onClick={() => onClick(i)} />
   }
   return (
     <div>

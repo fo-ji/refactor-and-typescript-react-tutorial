@@ -6,7 +6,6 @@ interface SquareProps {
   onClick: () => void
 }
 
-
 const Square: React.FC<SquareProps> = ({ onClick, value }) => {
   // const { onClick, value } = props
   return (
